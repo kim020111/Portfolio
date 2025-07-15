@@ -1,0 +1,70 @@
+.about-section {
+  margin: 3rem 0;
+  padding: 2rem 1rem;
+  background: #f8fafc;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(80,130,255,0.06);
+}
+.about-section h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 2rem;
+}
+.about-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(80,130,255,0.10);
+  border: 3px solid #e0e7ff;
+  background: #fff;
+  margin-top: 0.7rem;
+}
+.about-profile h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.about-profile p {
+  margin: 0 0 1.3rem 0;
+  color: #333;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+.about-skills {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #444;
+}
+.about-skills li {
+  margin-bottom: 0.3rem;
+}
+.about-quote {
+  display: block;
+  color: #2563eb;
+  margin-top: 1.2rem;
+  font-size: 1.05rem;
+  font-style: italic;
+  border-left: 4px solid #60a5fa;
+  padding-left: 1rem;
+}
+@media (max-width: 700px) {
+  .about-profile {
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+  }
+  .about-avatar {
+    margin: 0 auto;
+  }
+}
